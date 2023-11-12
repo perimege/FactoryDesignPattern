@@ -1,4 +1,4 @@
-class MySqlConnection extends AbstractDbConnection {
+class MySqlConnection extends AbstractDbConnection implements IDbConnection {
 
 
     @Override

@@ -1,4 +1,4 @@
-class MongoDbConnection extends AbstractDbConnection {
+class MongoDbConnection extends AbstractDbConnection implements IDbConnection {
     @Override
     public String getConnection() {
         return toString();

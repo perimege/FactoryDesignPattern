@@ -1,4 +1,4 @@
-class PostgreSqlConnection extends AbstractDbConnection {
+class PostgreSqlConnection extends AbstractDbConnection implements IDbConnection {
     @Override
     public String getConnection() {
         return toString();

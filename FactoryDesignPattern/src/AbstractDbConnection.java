@@ -1,4 +1,4 @@
-abstract public class AbstractDbConnection implements IDbConnection {
+abstract public class AbstractDbConnection{
 
     public final String host="localhost";
     public String driver;
